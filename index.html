@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157440793-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-157440793-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>HiraKana</title>
+    <link rel="stylesheet" href="stylesheets.css" type="text/css">
+  </head>
+  <body>
+
+    <div class="main-block">
+
+        <div class="second-block">
+
+            <div id="nav">
+                <a href="#">HiraKana</a>
+            </div>
+
+            <div id="user_input">
+
+                <table id="hiragana-block">
+                    <tr id="letters">
+                        <th>n</th>
+                        <th>w-</th>
+                        <th>r-</th>
+                        <th>y-</th>
+                        <th>m-</th>
+                        <th>p-</th>
+                        <th>b-</th>
+                        <th>h-</th>
+                        <th>n-</th>
+                        <th>d-</th>
+                        <th>t-</th>
+                        <th>z-</th>
+                        <th>s-</th>
+                        <th>g-</th>
+                        <th>k-</th>
+                        <th></th>
+                    </tr>
+                    <tr id="hiraganaA">
+                        <td><span>ん</span><input type="checkbox"></td>
+                        <td><span>わ</span><input type="checkbox"></td>
+                        <td><span>ら</span><input type="checkbox"></td>
+                        <td><span>や</span><input type="checkbox"></td>
+                        <td><span>ま</span><input type="checkbox"></td>
+                        <td><span>ぱ</span><input type="checkbox"></td> 
+                        <td><span>ば</span><input type="checkbox"></td> 
+                        <td><span>は</span><input type="checkbox"></td> 
+                        <td><span>な</span><input type="checkbox"></td>
+                        <td><span>だ</span><input type="checkbox"></td> 
+                        <td><span>た</span><input type="checkbox"></td>
+                        <td><span>ざ</span><input type="checkbox"></td> 
+                        <td><span>さ</span><input type="checkbox"></td>
+                        <td><span>が</span><input type="checkbox"></td> 
+                        <td><span>か</span><input type="checkbox"></td>
+                        <td><span>あ</span><input type="checkbox"></td>  
+                        <th>-a</th>    
+                    </tr>
+                    <tr id="hiraganaI">
+                        <td></td>
+                        <td><span>ゐ</span><input type="checkbox"></td>
+                        <td><span>り</span><input type="checkbox"></td>
+                        <td></td>
+                        <td><span>み</span><input type="checkbox"></td>
+                        <td><span>ぴ</span><input type="checkbox"></td> 
+                        <td><span>び</span><input type="checkbox"></td> 
+                        <td><span>ひ</span><input type="checkbox"></td> 
+                        <td><span>に</span><input type="checkbox"></td>
+                        <td><span>ぢ</span><input type="checkbox"></td> 
+                        <td><span>ち</span><input type="checkbox"></td>
+                        <td><span>じ</span><input type="checkbox"></td> 
+                        <td><span>し</span><input type="checkbox"></td>
+                        <td><span>ぎ</span><input type="checkbox"></td> 
+                        <td><span>き</span><input type="checkbox"></td>
+                        <td><span>い</span><input type="checkbox"></td> 
+                        <th>-i</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>る</span><input type="checkbox"></td>
+                        <td><span>ゆ</span><input type="checkbox"></td>
+                        <td><span>む</span><input type="checkbox"></td>
+                        <td><span>ぷ</span><input type="checkbox"></td> 
+                        <td><span>ぶ</span><input type="checkbox"></td> 
+                        <td><span>ふ</span><input type="checkbox"></td> 
+                        <td><span>ぬ</span><input type="checkbox"></td>
+                        <td><span>づ</span><input type="checkbox"></td> 
+                        <td><span>つ</span><input type="checkbox"></td>
+                        <td><span>ず</span><input type="checkbox"></td> 
+                        <td><span>す</span><input type="checkbox"></td>
+                        <td><span>ぐ</span><input type="checkbox"></td> 
+                        <td><span>く</span><input type="checkbox"></td>
+                        <td><span>う</span><input type="checkbox"></td> 
+                        <th id="hU">-u</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>ゑ</span><input type="checkbox"></td>
+                        <td><span>れ</span><input type="checkbox"></td>
+                        <td></td>
+                        <td><span>め</span><input type="checkbox"></td>
+                        <td><span>ぺ</span><input type="checkbox"></td> 
+                        <td><span>べ</span><input type="checkbox"></td> 
+                        <td><span>へ</span><input type="checkbox"></td> 
+                        <td><span>ね</span><input type="checkbox"></td>
+                        <td><span>で</span><input type="checkbox"></td> 
+                        <td><span>て</span><input type="checkbox"></td>
+                        <td><span>ぜ</span><input type="checkbox"></td> 
+                        <td><span>せ</span><input type="checkbox"></td>
+                        <td><span>げ</span><input type="checkbox"></td> 
+                        <td><span>け</span><input type="checkbox"></td>
+                        <td><span>え</span><input type="checkbox"></td>
+                        <th id="hE">-e</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>を</span><input type="checkbox"></td>
+                        <td><span>ろ</span><input type="checkbox"></td>
+                        <td><span>よ</span><input type="checkbox"></td>
+                        <td><span>も</span><input type="checkbox"></td>
+                        <td><span>ぽ</span><input type="checkbox"></td> 
+                        <td><span>ぼ</span><input type="checkbox"></td> 
+                        <td><span>ほ</span><input type="checkbox"></td> 
+                        <td><span>の</span><input type="checkbox"></td>
+                        <td><span>ど</span><input type="checkbox"></td> 
+                        <td><span>と</span><input type="checkbox"></td>
+                        <td><span>ぞ</span><input type="checkbox"></td> 
+                        <td><span>そ</span><input type="checkbox"></td>
+                        <td><span>ご</span><input type="checkbox"></td> 
+                        <td><span>こ</span><input type="checkbox"></td>
+                        <td><span>お</span><input type="checkbox"></td>  
+                        <th id="hO">-o</th>     
+                    </tr>  
+                </table>   
+                
+                <table id="katakana-block">
+                    <tr>
+                        <th>n</th>
+                        <th>w-</th>
+                        <th>r-</th>
+                        <th>y-</th>
+                        <th>m-</th>
+                        <th>p-</th>
+                        <th>b-</th>
+                        <th>h-</th>
+                        <th>n-</th>
+                        <th>d-</th>
+                        <th>t-</th>
+                        <th>z-</th>
+                        <th>s-</th>
+                        <th>g-</th>
+                        <th>k-</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><span>ン</span><input type="checkbox"></td>
+                        <td><span>ワ</span><input type="checkbox"></td>
+                        <td><span>ラ</span><input type="checkbox"></td>
+                        <td><span>ヤ</span><input type="checkbox"></td>
+                        <td><span>マ</span><input type="checkbox"></td>
+                        <td><span>パ</span><input type="checkbox"></td>
+                        <td><span>バ</span><input type="checkbox"></td>
+                        <td><span>ハ</span><input type="checkbox"></td> 
+                        <td><span>ナ</span><input type="checkbox"></td>
+                        <td><span>ダ</span><input type="checkbox"></td>
+                        <td><span>タ</span><input type="checkbox"></td>
+                        <td><span>ザ</span><input type="checkbox"></td>
+                        <td><span>サ</span><input type="checkbox"></td>
+                        <td><span>ガ</span><input type="checkbox"></td>
+                        <td><span>カ</span><input type="checkbox"></td>
+                        <td><span>ア</span><input type="checkbox"></td>  
+                        <th>-a</th>    
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>ヰ</span><input type="checkbox"></td>
+                        <td><span>リ</span><input type="checkbox"></td>
+                        <td></td>
+                        <td><span>ミ</span><input type="checkbox"></td>
+                        <td><span>ピ</span><input type="checkbox"></td>
+                        <td><span>ビ</span><input type="checkbox"></td>
+                        <td><span>ヒ</span><input type="checkbox"></td> 
+                        <td><span>ニ</span><input type="checkbox"></td>
+                        <td><span>ヂ</span><input type="checkbox"></td>
+                        <td><span>チ</span><input type="checkbox"></td>
+                        <td><span>ジ</span><input type="checkbox"></td>
+                        <td><span>シ</span><input type="checkbox"></td>
+                        <td><span>ギ</span><input type="checkbox"></td>
+                        <td><span>キ</span><input type="checkbox"></td>
+                        <td><span>イ</span><input type="checkbox"></td> 
+                        <th>-i</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><span>ル</span><input type="checkbox"></td>
+                        <td><span>ユ</span><input type="checkbox"></td>
+                        <td><span>ム</span><input type="checkbox"></td>
+                        <td><span>プ</span><input type="checkbox"></td>
+                        <td><span>ブ</span><input type="checkbox"></td>
+                        <td><span>フ</span><input type="checkbox"></td> 
+                        <td><span>ヌ</span><input type="checkbox"></td>
+                        <td><span>ヅ</span><input type="checkbox"></td>
+                        <td><span>ツ</span><input type="checkbox"></td>
+                        <td><span>ズ</span><input type="checkbox"></td>
+                        <td><span>ス</span><input type="checkbox"></td>
+                        <td><span>グ</span><input type="checkbox"></td>
+                        <td><span>ク</span><input type="checkbox"></td>
+                        <td><span>ウ</span><input type="checkbox"></td> 
+                        <th>-u</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>ヱ</span><input type="checkbox"></td>
+                        <td><span>レ</span><input type="checkbox"></td>
+                        <td></td>
+                        <td><span>メ</span><input type="checkbox"></td>
+                        <td><span>ペ</span><input type="checkbox"></td>
+                        <td><span>ベ</span><input type="checkbox"></td>
+                        <td><span>ヘ</span><input type="checkbox"></td> 
+                        <td><span>ネ</span><input type="checkbox"></td>
+                        <td><span>デ</span><input type="checkbox"></td>
+                        <td><span>テ</span><input type="checkbox"></td>
+                        <td><span>ゼ</span><input type="checkbox"></td>
+                        <td><span>セ</span><input type="checkbox"></td>
+                        <td><span>ゲ</span><input type="checkbox"></td>
+                        <td><span>ケ</span><input type="checkbox"></td>
+                        <td><span>エ</span><input type="checkbox"></td>
+                        <th>-e</th>     
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span>ヲ</span><input type="checkbox"></td>
+                        <td><span>ロ</span><input type="checkbox"></td>
+                        <td><span>ヨ</span><input type="checkbox"></td>
+                        <td><span>モ</span><input type="checkbox"></td>
+                        <td><span>ポ</span><input type="checkbox"></td>
+                        <td><span>ボ</span><input type="checkbox"></td>
+                        <td><span>ホ</span><input type="checkbox"></td> 
+                        <td><span>ノ</span><input type="checkbox"></td>
+                        <td><span>ド</span><input type="checkbox"></td>
+                        <td><span>ト</span><input type="checkbox"></td>
+                        <td><span>ゾ</span><input type="checkbox"></td>
+                        <td><span>ソ</span><input type="checkbox"></td>
+                        <td><span>ゴ</span><input type="checkbox"></td>
+                        <td><span>コ</span><input type="checkbox"></td>
+                        <td><span>オ</span><input type="checkbox"></td>  
+                        <th>-o</th>     
+                    </tr>  
+                </table>
+
+                </div>
+
+                <div id="study-block">
+                        <p class="symbol"></p>
+                        <div class="input-wrapper">
+                            <input class="answer" type="text"> 
+                            <span class="answer-notifi"></span>           
+                        </div>
+                    </div>
+                    <div id="study-nav">
+                            <button type="button" id="study">Study</button>
+                            <button type="button" id="go-back">Go Back</button>
+                            <button type="button" id="show-charts">Show Charts</button>
+                            <button type="button" id="hide-charts">Hide Charts</button>
+                    </div>
+
+        </div>
+
+    </div>
+
+    <script src="hirakana.js"></script>
+  </body>
+</html>
